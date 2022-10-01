@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Rubik+Dirt&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color:#111827;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #000;
+    padding: 15px 100px 10px 50px;
+    font-family: 'Josefin Sans', sans-serif;
+ }
+h1{
+    display: inline-block;
+}
+.marpad{
+    margin: 0;
+    padding: 0;
+}
+.white{
+    color: white;
+}
+.inner_nav{
+    font-size: 25px;
+ }
+.inner_nav ul{
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 500px;           
+}
+.tdn{
+    text-decoration: none;
+}
+.nav img{
+    width: 25px;
+}
+.hero{
+background-image: url(siluet2.jpg);
+background-repeat: no-repeat;
+height: 500px;
+background-size: cover;
+}
+.subhero{
+display: flex;
+align-items: center;
+height: 90%;
+}
+.hero h2{
+font-size: 91px;    
+}
+.hero p{
+font-size: 20px;
+display: flex;
+align-items: center;
+font-family: 'Rubik Dirt', cursive;
+justify-content: center;
+color: #ee3c3c;
+}
+.blue{
+    color: rgb(45, 39, 206);
+  }
+  .footer{
+    width: auto;
+     background-color: white;
+     border: 1px solid black;
+}
+.footer ul li{
+    display: inline-flex;
+    align-items: center;
+}
+.footer ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 18px;
+}
